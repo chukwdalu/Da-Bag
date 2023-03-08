@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href='/Static/img/bb-removebg-preview.png'>
+  <link rel="stylesheet" href="/Static/css/style.css">
+  <link rel="stylesheet" href="/Static/css/bootstrap.min.css">
+</head>
+
+<body style="background-color:rgb(255,255,255);">
+
+  <nav style="background-color: rgb(255,255,255);"
+    class="navbar navbar-expand-md sticky-top shadow-sm navbar-scroll p-2">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto d-md-none" href="#"> <img style="height: 55px;color: black;"
+          src="/Static/img/bb-removebg-preview.png" alt=""></a>
+      <button style="color: black; background-color: transparent;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m-2  me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu rounded-0 fade-up
+            ">
+              <li><a class="dropdown-item" href="/contact.html">Contact us</a></li>
+              <li><a class="dropdown-item" href="/terms.html">Terms &Conditions</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <a class="navbar-brand me-auto d-none d-md-inline" href="/index.html"> <img style="height: 55px;color: black;"
+            src="/Static/img/bb-removebg-preview.png" alt=""></a>
+
+        <div class="d-flex align-items-center">
+          <a style="color: black; text-decoration: none; text-decoration-line: none;" href="" data-toggle="tooltip"
+            data-selector="true" data-placement="bottom" title="Login / Register">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people"
+              viewBox="0 0 16 16">
+              <path
+                d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+            </svg>
+            <span style="color: black;" hreff="" class="ml-2 me-3">
+              Login / Register
+            </span>
+          </a>
+          <div class="d-flex align-items-center">
+            <a style="color: black;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                <path
+                  d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                <path
+                  d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+              </svg>
+            </a>
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;" class="text-center p-5 fw-2 fs-1">
+    Term & Conditions
+    <br>
+    <p style="max-width: 60%;" class="up mx-auto">Include an email and phone number so visitors can get in touch with you on their first attempt. Include a short form using fields that'll help your business understand who's contacting them. Have a call-to-action to provide visitors with another action to take if they choose not to complete the form.</p>
+  </div>
+  <div class="full">
+    <div class="full1 flex-end p-4 fs-4">
+        Our Contract
+        <br><br>
+        <p style="font-size: medium;">
+            It's an agreement, either written or spoken, between two or more parties that creates a legal obligation. The terms of a contract are enforceable by law, with clearly defined penalties and remedies should the contract be breached. A contract is an agreement, but an agreement is not always a contract. An agreement can be informal or it may be written; a contract may be verbal or written, but a contract will always be enforceable if it contains certain requirements. The process of agreement begins with an offer. For a contract to be formed, this offer must be unconditionally accepted. • Contract : “ A contract is an agreement which the law wil enforce as. affecting the legal rights and duties of the parties involved” (Sagey, Nigerian. Law of contract). A contract is an agreement between parties, creating mutual obligations that are enforceable by law. The basic elements required for the agreement to be a legally enforceable contract are: mutual assent, expressed by a valid offer and acceptance; adequate consideration; capacity; and legality.</p>
+
+            Data Protection
+            <br><br>
+            <p style="font-size: medium;">
+                Data protection is the process of protecting sensitive information from damage, loss, or corruption. As the amount of data being created and stored has increased at an unprecedented rate, making data protection increasingly important. Data protection law sets out what should be done to make sure everyone's data is used properly and fairly. You probably have personal data about your customers and clients such as names, addresses, contact details. You might even have sensitive information such as medical data.  The Act seeks to empower individuals to take control of their personal data and to support organisations with their lawful processing of personal data. Firewalls, password protection, and multi-factor authentication are all types of data security measures typically employed. Data protection is a set of strategies and processes you can use to secure the privacy, availability, and integrity of your data. It is sometimes also called data security. A data protection strategy is vital for any organization that collects, handles, or stores sensitive data.</p>
+
+                Payment
+                <br><br>
+                <p style="font-size: medium;">
+                    Payment is the exchange of money, goods, or services for goods and services in an acceptable amount to both parties and has been agreed upon in advance. You can pay with cash, a check, a wire transfer, a credit card, a debit card, or even cryptocurrency. Understanding Payment. Payment is the transfer of money, goods, or services in exchange for goods and services in acceptable proportions that have been previously agreed upon by all parties involved. A payment can be made in the form of services exchanged, cash, check, wire transfer, credit card, debit card, or cryptocurrencies. Alternative methods of payment are means of making a payment other than cash. Alternative methods of payment (AMOP) include payments made using a credit or debit card, loyalty program points, cryptocurrencies like bitcoin or digital wallets like Google Pay or Apple Pay. Another popular AMOP is Venmo. time rate system and piece rate system. Both the systems have their merits and demerits. No system can be considered suitable for all times and under all circumstances.</p>
+
+                    Return
+                    <br><br>
+                    <p style="font-size: medium;">
+                        Some common synonyms of return are reciprocate, requite, and retaliate. While all these words mean "to give back usually in kind or in quantity," return implies a paying or giving back. returned their call. [uncountable, singular] the action of giving, putting, or sending something or someone back We would appreciate the prompt return of books to the library. The judge ordered the return of the child to his mother.</p>
+    </div>
+    </div>
+
+
+
+<footer style="margin-top: 17rem;" class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="/index.html">BagBag.com</a>
+  </div>
+  <!-- Copyright -->
+</footer> 
+
+<script src="/Static/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
